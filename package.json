@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/cesarrh94/learning-cypress#readme",
   "devDependencies": {
-    "cypress": "^15.0.0"
+    "cypress": "^15.0.0",
+    "cypress-iframe": "^1.0.1"
   }
 }

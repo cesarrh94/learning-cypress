@@ -23,3 +23,11 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+// plugin support for iframe on Cypress
+import 'cypress-iframe';
+
+// lesson 51 - creating a custom command
+Cypress.Commands.add('openHomePage', () => {
+    cy.visit('/')
+})
